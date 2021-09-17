@@ -1,0 +1,94 @@
+body {
+    font-family: helvetica;
+    background: rgb(49, 47, 47);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: black;
+    background-image: url("teslapix/model-s.jpg");
+    background-size: 100%;
+    background-position: center;
+    font-size: 120%;
+    height:400px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header a {
+    color: black;
+    text-transform: uppercase;
+
+}
+header .logo a{
+    
+    background-image: url("teslapix/Emblem-Tesla.jpg");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 115px;
+    top: -10px;
+    text-indent: -999999px;
+}
+header .mobile {
+    display: none;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 30px;
+}
+nav li {
+    margin-left: 20px;
+    display: inline-block;
+}
+/* RESPONSIVE RULES */ 
+@media screen and (max-width: 900px) {
+    header {
+        height: 150px;
+    }
+    header .mobile {
+        display: inline-block;
+    }
+    header .desktop {
+        display: none;
+    }
+}
+.images {
+    background-color: white;
+    color: black;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0 5px 0;
+}
+.images figure {
+    width: 400px;
+    margin: auto;
+    text-transform: uppercase;
+    text-align: center;
+}
+.images figure img {
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: gray 0 0 8px;
+}
+footer {
+    background: black;
+    color: gray;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 13px;
+}
+
